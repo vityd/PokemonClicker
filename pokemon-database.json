@@ -1,32 +1,32 @@
 {
-  "pokemons": [
-    {
-      "id": 1,
-      "name": "Bulbasaur",
-      "sprites": {
-		"default" : "https://veekun.com/dex/media/pokemon/main-sprites/black-white/1.png"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Ivysaur",
-      "sprites": {
-        "default" : "https://veekun.com/dex/media/pokemon/main-sprites/black-white/2.png"
-      }
-    },
-	{
-      "id": 3,
-      "name": "Venusaur",
-      "sprites": {
-        "default" : "https://veekun.com/dex/media/pokemon/main-sprites/black-white/3.png"
-      }
-    },
-	{
-      "id": 4,
-      "name": "Charmander",
-      "sprites": {
-        "default" : "https://veekun.com/dex/media/pokemon/main-sprites/black-white/4.png"
-      }
-    }
-  ]
+    "pokemons": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "sprites": {
+                "default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/1.png"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "sprites": {
+                "default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/2.png"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "sprites": {
+                "default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/3.png"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "sprites": {
+                "default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/4.png"
+            }
+        }
+    ]
 }
