@@ -27,6 +27,41 @@
 			"sprites": {
 				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/4.png"
 			}
+		},
+		{
+			"id": 5,
+			"name": "Charmeleon",
+			"sprites": {
+				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/5.png"
+			}
+		},
+		{
+			"id": 6,
+			"name": "Charizard",
+			"sprites": {
+				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/6.png"
+			}
+		},
+		{
+			"id": 7,
+			"name": "Squirtle",
+			"sprites": {
+				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/7.png"
+			}
+		},
+		{
+			"id": 8,
+			"name": "Wartortle",
+			"sprites": {
+				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/8.png"
+			}
+		},
+		{
+			"id": 9,
+			"name": "Blastoise",
+			"sprites": {
+				"default": "https://veekun.com/dex/media/pokemon/main-sprites/black-white/9.png"
+			}
 		}
 	]
 }
