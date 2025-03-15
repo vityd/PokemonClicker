@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Clicker</title>
-   <style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -51,9 +51,9 @@
     <div class="container">
         <h1>Pokémon Hunter</h1>
         <button onclick="procurarPokemon()">Procurar Pokémon</button>
-        <button onclick="tentarCapturar()" id="captureBtn" style="display: none;">Tentar Capturar!</button>
         <div id="result"></div>
         <img id="pokemonSprite" src="" alt="Pokémon">
+        <button onclick="tentarCapturar()" id="captureBtn" style="display: none;">Tentar Capturar!</button>
         <h3>Pokémons Capturados (<span id="capturedCount">0</span>)</h3>
         <div class="caught-list" id="caughtList"></div>
     </div>
