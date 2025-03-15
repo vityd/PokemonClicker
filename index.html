@@ -23,6 +23,22 @@
             border-radius: 10px;
             background: white;
         }
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .button-group button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background: #ff4444;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 0; /* Remove a margem original dos botões */
+        }
         button {
             padding: 15px 30px;
             font-size: 18px;
@@ -50,10 +66,12 @@
 <body>
     <div class="container">
         <h1>Pokémon Hunter</h1>
-        <button onclick="procurarPokemon()">Procurar Pokémon</button>
+        <div class="button-group">
+            <button onclick="procurarPokemon()">Procurar Pokémon</button>
+            <button onclick="tentarCapturar()" id="captureBtn" style="display: none;">Tentar Capturar!</button>
+        </div>
         <div id="result"></div>
         <img id="pokemonSprite" src="" alt="Pokémon">
-        <button onclick="tentarCapturar()" id="captureBtn" style="display: none;">Tentar Capturar!</button>
         <h3>Pokémons Capturados (<span id="capturedCount">0</span>)</h3>
         <div class="caught-list" id="caughtList"></div>
     </div>
